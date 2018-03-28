@@ -8,7 +8,7 @@ https://datasheets.maximintegrated.com/en/ds/DS3231.pdf
 
 ## Functions
 
-get_timestring(bus) - This is the primary function which calls all other functions and returns a formatted string. The returned value is "<year><month><date><hours><minutes><seconds>".
+get_timestring(bus) - This is the primary function which calls all other functions and returns a formatted string. The returned value is `"<year><month><date><hours><minutes><seconds>"`.
 
 The following functions are used to set the time on the RTC:
 
