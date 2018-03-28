@@ -12,9 +12,9 @@ get_timestring(bus) - This is the primary function which calls all other functio
 
 The following functions are used to set the time on the RTC:
 
-set_second(bus, data), set_minute(bus, data), set_hour(bus, data), set_weekday(bus, data), set_date(bus, data), set_month(bus, data), set_year(bus, data).
+`set_second(bus, data), set_minute(bus, data), set_hour(bus, data), set_weekday(bus, data), set_date(bus, data), set_month(bus, data), set_year(bus, data)`
 
 The following functions are used to get the time from the RTC:
 
-get_second(bus, data), get_minute(bus, data), get_hour(bus, data), get_weekday(bus, data), get_date(bus, data), get_month(bus, data), get_year(bus, data).
+`get_second(bus, data), get_minute(bus, data), get_hour(bus, data), get_weekday(bus, data), get_date(bus, data), get_month(bus, data), get_year(bus, data)`
 
